@@ -9,7 +9,7 @@ The idea is:
 - startups run a free audit
 - discover overlapping AI subscriptions or unnecessary spend
 - larger teams may want help consolidating infrastructure or reducing API costs
-- Credex becomes the next step for companies with meaningful AI spend
+- This becomes the next step for companies with meaningful AI spend
 
 So the economics mostly depend on whether the audit can generate qualified
 high-intent leads consistently.

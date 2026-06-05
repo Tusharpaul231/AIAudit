@@ -8,13 +8,13 @@ The app analyzes a user's current AI stack and generates recommendations for:
 - incorrect plans
 - potential monthly and yearly savings
 
-Built for the Credex AI Spend Optimizer assignment.
+A SaaS platform for auditing and optimizing AI subscription spending across organizations.
 
 ---
 
 ## Live Demo
 
-https://credex-assignment-five.vercel.app
+https://the-aiaudit.vercel.app
 
 ---
 
@@ -74,23 +74,3 @@ Running tests:
 
 ```bash
 npm run test
-
----
-
-## Screenshots
-
-![Screenshot](screenshots/screenshot1.png)
-
-![Screenshot](screenshots/screenshot2.png)
-
-![Screenshot](screenshots/screenshot3.png)
-
-![Screenshot](screenshots/screenshot4.png)
-
-![Screenshot](screenshots/screenshot5.png)
-
----
-
-## Lighthouse
-
-![lighthouse](screenshots/lighthouse.png)
