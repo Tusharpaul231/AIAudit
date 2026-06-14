@@ -88,12 +88,12 @@ export default function HomePage() {
               Free tool
             </Badge>
             <a
-              href="https://credex.rocks"
+              href="https://github.com/Tusharpaul231/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
-              by Credex →
+              by Tushar →
             </a>
           </div>
         </div>
@@ -254,16 +254,9 @@ export default function HomePage() {
             <div className="w-5 h-5 rounded bg-foreground flex items-center justify-center">
               <Zap size={10} className="text-background" />
             </div>
-            <span>AIAudit by Credex · {new Date().getFullYear()}</span>
+            <span>AIAudit · {new Date().getFullYear()}</span>
           </div>
-          <Link
-            href="https://credex.rocks"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-foreground transition-colors"
-          >
-            credex.rocks →
-          </Link>
+          <span>Made with ❤️ by Tushar</span>
         </div>
       </footer>
     </main>
