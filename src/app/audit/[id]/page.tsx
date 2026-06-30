@@ -107,7 +107,7 @@ export default async function AuditPage({
           <div className="flex items-center gap-2">
             <ThemeToggle />
             <Badge variant="secondary" className="text-xs hidden sm:block">
-              Free tool by Credex
+              Free AI Spend Optimizer
             </Badge>
             <Button asChild variant="outline" size="sm">
               <Link href="/">

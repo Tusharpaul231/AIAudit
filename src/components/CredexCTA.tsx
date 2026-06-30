@@ -14,7 +14,7 @@ export default function CredexCTA({ totalMonthlySavings }: CredexCTAProps) {
         </div>
         <div className="flex-1 min-w-0">
           <h3 className="font-bold text-foreground text-lg mb-1">
-            Capture more of that ${totalMonthlySavings.toLocaleString()}/mo with Credex
+            How to capture that ${totalMonthlySavings.toLocaleString()}/mo in savings
           </h3>
           <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
             Credex sells discounted AI infrastructure credits - Cursor, Claude, ChatGPT

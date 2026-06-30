@@ -243,7 +243,7 @@ function auditAnthropicAPI(input: ToolInput): ToolAudit {
     const savings = Math.round(monthlySpend * 0.25);
     return {
       ...base,
-      recommendedAction: "Get discounted credits via Credex",
+      recommendedAction: "Review volume discount options",
       savings,
       reason: `At $${monthlySpend}/mo retail, discounted Anthropic API credits typically save 20–30%. Estimated saving: $${savings}/mo ($${savings * 12}/yr). Credex sources credits from companies that overforecast - same API, lower cost.`,
       isOptimal: false,

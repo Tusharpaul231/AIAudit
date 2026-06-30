@@ -21,19 +21,19 @@ function isRateLimited(ip: string): boolean {
   return false;
 }
 
-// ── Honeypot check ───────────────────────────────────────────
+// Honeypot check
 function hasHoneypot(body: Record<string, unknown>): boolean {
   return typeof body._hp_website === "string" && body._hp_website.length > 0;
 }
 
-// ── Email template ───────────────────────────────────────────
+//Email template 
 function buildEmailHtml(
   email: string,
   auditId: string,
   totalMonthlySavings: number,
   isHighSavings: boolean
 ): string {
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? "https://your-domain.vercel.app";
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? "https://the-aiaudit.vercel.app";
   const auditUrl = `${appUrl}/audit/${auditId}`;
 
   return `
@@ -52,7 +52,7 @@ function buildEmailHtml(
       <p style="margin:0;color:#ffffff;font-size:20px;font-weight:700;letter-spacing:-0.3px;">
         ⚡ AIAudit
       </p>
-      <p style="margin:6px 0 0;color:#a1a1aa;font-size:13px;">by Credex</p>
+      <p style="margin:6px 0 0;color:#a1a1aa;font-size:13px;">by Tushar</p>
     </div>
 
     <!-- Body -->
@@ -80,7 +80,7 @@ function buildEmailHtml(
       <!-- Credex block for high savings -->
       <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:20px;margin-bottom:24px;">
         <p style="margin:0 0 8px;font-size:14px;font-weight:600;color:#15803d;">
-          💡 Capture more of that savings with Credex
+          💡 How to capture that savings
         </p>
         <p style="margin:0 0 12px;font-size:13px;color:#166534;line-height:1.6;">
           Credex sells discounted AI infrastructure credits — same API, lower price.
